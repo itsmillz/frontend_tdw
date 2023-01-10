@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.img{
+    width: 400px;
+    height: 400px;
+
+}
