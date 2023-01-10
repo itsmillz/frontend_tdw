@@ -2,7 +2,6 @@ import { Box, Button, Grid, Link, Typography } from "@mui/material";
 import axios from "axios";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../assets/LogoUrban.png";
 
 const Header = () =>{
     const navigate = useNavigate();
@@ -26,7 +25,7 @@ const Header = () =>{
     return (
         <Grid container sx={{
             width:"100%",
-            backgroundColor:"#064e3b"
+            backgroundColor:"#38bdf8"
         }}>
             <Box sx={{
                 width: "40%",
@@ -34,7 +33,6 @@ const Header = () =>{
                 justifyContent:"center",
                 alignItems:"center"
             }}>
-                <img src={Logo} alt="logo" width="300px" />
             </Box>
             <Box sx={{
                 display:"flex",
